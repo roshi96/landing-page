@@ -44,9 +44,9 @@ body{
 }
 
 .hero-info{
-    display: flex;
+    /*display: flex;
     flex-flow: column wrap;
-    gap: 8px 8px;
+    gap: 8px 8px; - don't need*/
     flex: 1;
 }
 
@@ -59,10 +59,6 @@ body{
     color: #E5E7EB;
 }
 
-.hero-image{
-    list-style: none;
-}
-
 .hero-title{
     color: #F9FAF8;
     font-size: 48px;
@@ -72,13 +68,13 @@ body{
 .hero-desc{
     color: #E5E7EB;
     font-size: 18px;
+    margin-bottom: 8px;
 }
 
 .hero-button{
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 8px 16px;
+    padding: 8px 32px;
     border-radius: 8px;
     border-style: none;
-    max-width: 100px;
 }
