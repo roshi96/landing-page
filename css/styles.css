@@ -15,6 +15,12 @@ body{
     align-items: center;
 }
 
+
+
+
+
+/* Header Section 1  */
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -40,6 +46,11 @@ body{
     font-size: 18px;
 }
 
+
+
+
+/*  Hero Section 1  */
+
 .hero-section{
     display: flex;
     justify-content: center;
@@ -49,9 +60,6 @@ body{
 }
 
 .hero-info{
-    /*display: flex;
-    flex-flow: column wrap;
-    gap: 8px 8px; - don't need*/
     height: 212px;
     width: 425px;
     flex-shrink: 0;
@@ -128,3 +136,8 @@ body{
 .info{
     max-width: 150px;
 }
+
+
+
+
+/*  Quote Section 3  */
