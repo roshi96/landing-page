@@ -145,13 +145,13 @@ body{
     flex-direction: column;
     width: 750px;
     margin: 96px 0px;
+    flex-shrink: 0;
 }
 
 .quote{
     font-size: 36px;
     font-weight: lighter;
     color: #1F2937;
-
 }
 
 .quote-name{
