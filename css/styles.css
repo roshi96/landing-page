@@ -16,9 +16,6 @@ body{
 }
 
 
-
-
-
 /* Header Section 1  */
 
 .header{
@@ -45,8 +42,6 @@ body{
     text-decoration: none;
     font-size: 18px;
 }
-
-
 
 
 /*  Hero Section 1  */
@@ -100,8 +95,6 @@ body{
 }
 
 
-
-
 /*  Information section 2  */
 
 .info-container{
@@ -138,6 +131,31 @@ body{
 }
 
 
-
-
 /*  Quote Section 3  */
+
+.quote-container{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box{
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    margin: 96px 0px;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+
+}
+
+.quote-name{
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
